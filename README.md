@@ -3,6 +3,10 @@
 
 # 使い方
 ## 頻出順に代表ベクトルを並べる
+- [シェルスクリプト](https://github.com/YuichiroHatanaka/binary_counter/blob/master/src/max_sarch.bash)を実行
+```
+max_sarch.bash
+```
 
 ## マップ内により出現するデータほど代表ベクトルのインデックスが小さい数になるように置換
 - コードブックを置換
