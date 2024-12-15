@@ -35,15 +35,16 @@ int max_index_sarch(){
 	for(int i = 0; i < max_index; i++){
 		cnt_rep_vector[i] = 0;
 	}
-	//代表ベクトルの数をカウント
+//代表ベクトルの数をカウント
 	for(int i = 0; i < length; i++){
 		fread(&index, sizeof(short), 1, vq_fp);
 		cnt_rep_vector[index]++;
 	}
 	//結果を表示
-	for(int i = 0; i < max_index; i++)
-		printf("%d: %d\n", i+1, cnt_rep_vector[i]);
-	
+	for(int i = 0; i < max_index; i++){
+		printf("%d %d\n", i, cnt_rep_vector[i]);
+//		printf("%d\n", cnt_rep_vector[i]);
+	}
 	//ファイルクローズ
 	fclose(vq_fp);
 	return 0;

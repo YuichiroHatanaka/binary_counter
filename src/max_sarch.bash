@@ -5,5 +5,5 @@
 echo a
 gcc max_sarch.c -o out
 ./out > max_sarch.log
-cat max_sarch.log | grep -v max | sort -r -k2,2 -n > sort.dat
+cat max_sarch.log | grep -v max | sort -r -k2,2 -n | awk '{print $1}' > sort.dat
 rm max_sarch.log out
