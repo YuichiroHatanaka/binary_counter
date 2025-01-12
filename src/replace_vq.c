@@ -42,7 +42,7 @@ int replace_vq(){
 
 int main(){
 	openfile_t file;
-	FILE file.*vq_fp, *file.cb_fp, *file.revq_fp, *file.recb_fp;
+//	FILE file.*vq_fp, file.*cb_fp, file.*revq_fp, file.*recb_fp;
 	open_file(file);
 	replace_vq();
 //	fclose(file.vq_fp);

@@ -3,7 +3,7 @@
 
 #include"max_sarch.h"
 
-#define VQ_DATA_PATH "../sim/vq.bin"
+#define VQ_DATA_PATH "../tsudanuma/16/vq.bin"
 
 int max_index_sarch(){
 	FILE *vq_fp;

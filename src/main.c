@@ -5,8 +5,8 @@
 #include<string.h>
 
 #define MAX_PATH_LENGTH 256
-#define VQ_MAP_PATH "../sim/vq.bin"
-#define CNT_DATA_PATH "../sim/cnt.txt"
+#define VQ_MAP_PATH "../sim/vq16.bin"
+#define CNT_DATA_PATH "../sim/cnt16.txt"
 
 typedef struct {
 	char vq_data[MAX_PATH_LENGTH];
